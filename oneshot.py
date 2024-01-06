@@ -54,15 +54,37 @@
 # % Modulo operator (remainder - shesh in gujarati)
 # print(5 % 2)
 
-# list 
-lst = [2, 14, 45, 61, 57]
-lst.append(100)
-lst.insert(1,100)
-lst.remove(61)
-lst.pop()
-del lst[3]
-#del lst
-lst.clear()
-var = lst
+# # list 
+# lst = [2, 14, 45, 61, 57]
+# lst.append(100)
+# lst.insert(1,100)
+# lst.remove(61)
+# lst.pop()
+# del lst[3]
+# #del lst
+# lst.clear()
+# var = lst
 
-print(var)
+# print(var)
+
+
+# # tuple
+# a = ("Harry", "Shubh", "Rohan")
+# a = list(a)
+# a[0] = "Vikrant"
+# var = a
+# #var = type(a)
+# print(var)
+
+
+# set
+s1 = {21,2,2,2,3,1,2,2,4}
+s1.add(4444)
+#s1.remove(44) # error
+s1.discard(44) # no error
+# .pop .clear del intersaction  union
+print(s1)
+
+
+
+
